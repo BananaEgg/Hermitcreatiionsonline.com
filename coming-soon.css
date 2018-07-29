@@ -1,0 +1,30 @@
+.jumbotron{
+	background: none;
+}
+
+.jumbotron h1{
+	margin-top: 8rem;
+}
+	
+	.hermit-img img {
+		margin-left: 45rem;
+		width: 30rem;
+	}
+	
+
+/*######moblie#######*/
+
+@media screen and (max-width: 680px){
+
+.jumbotron h1{
+	margin-top: 3rem;
+	font-size: 3rem
+}
+	
+	.hermit-img img {
+	margin-left: 7rem;
+		margin-top: 1rem;
+		width: 12rem;
+	}
+	
+}

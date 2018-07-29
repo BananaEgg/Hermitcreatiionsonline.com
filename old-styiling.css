@@ -1,0 +1,121 @@
+.body{
+    display: flex;
+}
+
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+    margin
+}
+
+.navbar{
+    background-color:#05B2AE;  
+    padding: 2;
+}
+
+div .navbar a{
+    color: #fff;
+}
+
+div .navbar a.dropdown-item{
+    color: #598A89;
+}
+
+ul li.nav-right{
+/*    text-align: right;*/
+}
+
+.carousel{
+width: 100%;
+}
+
+.item img{
+  width:100%;
+}
+
+
+div .category-box{
+    background:none;
+    border: none;
+    text-align: center;
+    padding: 5%;
+}
+
+.sectionLight {
+    background-color: antiquewhite;
+}
+
+.category-section{
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+}
+
+.sectionDark {
+    background-color: #cccccc;
+    padding: 2rem;
+}
+
+div .article{
+    font-size:1.2rem;
+    font-family: cursive;
+    position: 0;
+}
+
+img.circle-img{
+    border-radius: 50%;
+}
+
+
+/*####################Mobile#########################*/
+
+
+@media screen and (max-width: 680px){
+
+
+div .carousel {
+  height: 240px;
+    }
+    div .carousel .item1 {
+  height: 240px;
+  background-image: url(assets/horse.jpg);
+  background-position: center center;
+  background-size: cover;
+    }
+    div .carousel .item2 {
+  height: 240px;
+  background-image: url(assets/sun-glases.jpeg);
+  background-position: center center;
+  background-size: cover;
+    }
+    div .carousel .item3 {
+  height: 240px;
+  background-image: url(assets/picking-nose.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+    div .carousel .item4 {
+  height: 240px;
+  background-image: url(assets/picking-nose.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+    div .carousel .item5 {
+  height: 240px;
+  background-image: url(assets/picking-nose.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+    div .carousel .item6 {
+  height: 240px;
+  background-image: url(assets/picking-nose.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+    
+    
+    
+    
+    
+    
+}
